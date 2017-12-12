@@ -11,5 +11,9 @@ describe FibonnaciSequence do
     expect(@fib.sum_total).to eq 30
   end
 
+  it "should successfully sum the two previous numbers of the sequence" do
+    expect(@fib.fibonnaci_sequence(1, 3)). to be 6
+  end
+
 
 end

@@ -15,4 +15,8 @@ class FibonnaciSequence
   def sum_total
     @fibonnaci_array.sum
   end
+
+  def fibonnaci_sequence(range_from, range_to)
+    @fibonnaci_array << (range_from..range_to).inject(:+) 
+  end
 end
