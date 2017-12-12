@@ -12,7 +12,11 @@ describe FibonnaciSequence do
   end
 
   it "should successfully sum the two previous numbers of the sequence" do
-    expect(@fib.fibonnaci_sequence(1, 3)). to be 6
+    expect(@fib.sum_two_previous(1, 2)). to be 3
+  end
+
+  it "should successfully print only the even numbers of fibonacci sequence" do
+
   end
 
 

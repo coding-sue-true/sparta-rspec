@@ -16,7 +16,11 @@ class FibonnaciSequence
     @fibonnaci_array.sum
   end
 
-  def fibonnaci_sequence(range_from, range_to)
-    @fibonnaci_array << (range_from..range_to).inject(:+) 
+  def sum_two_previous(range_from, range_to)
+    (range_from..range_to).inject(:+)
+  end
+
+  def fibonnaci_sequence
+
   end
 end
